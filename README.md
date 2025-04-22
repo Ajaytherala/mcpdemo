@@ -67,4 +67,14 @@ uv run app.py
 - **Memory Steps**: Modify `max_steps` in the `MCPAgent` initialization.
 - **Client Config**: Update `browser_mcp.json` with your backend endpoints or connection details.
 
+## Example 
+  - You: who is the winner of IPL 2016?
+  - Assistant: Thought: I need to find the winner of the IPL 2016 season.
 
+  - **Action:** I will perform a web search to find the winner of IPL 2016.
+
+  - **Action Input:** {"query": "IPL 2016 winner"}
+
+  - **Observation:** The winner of IPL 2016 was the Sunrisers Hyderabad (SRH). They defeated the Royal Challengers Bangalore (RCB) in the final.        
+
+  - **Final Answer: The winner of IPL 2016 was Sunrisers Hyderabad (SRH).**
